@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /
+
+# Block all search engines from indexing
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+# Allow only specific user verification
+User-agent: AdsBot-Google
+Allow: /
